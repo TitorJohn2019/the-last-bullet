@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yağmurda Kalan Tek Kurşun — Kaos temalı bir seri hikaye. Max'in karanlık dünyasında gerilim, ihanet ve intikam.">
+    <meta name="theme-color" content="#0a0a0c">
+    <meta name="color-scheme" content="dark">
+
+    <title>Yağmurda Kalan Tek Kurşun | Kaos Hikayeleri</title>
+
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════════════════════════
+         LOGIN GATEKEEPER OVERLAY
+         ═══════════════════════════════════════════════════════ -->
+    <div class="gatekeeper" id="gatekeeper">
+        <!-- Scanline effect layer -->
+        <div class="gatekeeper__scanline"></div>
+
+        <div class="gatekeeper__card">
+            <!-- Glitch Title -->
+            <h1 class="gatekeeper__title glitch" data-text="KAOS">KAOS</h1>
+
+            <div class="gatekeeper__divider">
+                <span></span><span>⧫</span><span></span>
+            </div>
+
+            <p class="gatekeeper__subtitle" id="gatekeeper-subtitle">
+                Bu hikâyeye erişim için şifreyi girin.
+            </p>
+
+            <form class="gatekeeper__form" id="gatekeeper-form" autocomplete="off">
+                <div class="gatekeeper__input-wrapper" id="gatekeeper-input-wrapper">
+                    <input
+                        type="password"
+                        class="gatekeeper__input"
+                        id="gatekeeper-input"
+                        placeholder="Şifre giriniz..."
+                        aria-label="Passcode"
+                        spellcheck="false"
+                        autocomplete="off"
+                    >
+                    <div class="gatekeeper__input-glow"></div>
+                </div>
+
+                <button type="submit" class="gatekeeper__btn" id="gatekeeper-btn">
+                    <span id="gatekeeper-btn-text">GİRİŞ</span>
+                    <span class="gatekeeper__btn-arrow">→</span>
+                </button>
+            </form>
+
+            <p class="gatekeeper__error" id="gatekeeper-error">
+                Geçersiz şifre.
+            </p>
+
+            <!-- Login-screen language switcher -->
+            <div class="gatekeeper__lang">
+                <button class="gatekeeper__lang-btn active" data-lang="tr">TR</button>
+                <span class="gatekeeper__lang-sep">·</span>
+                <button class="gatekeeper__lang-btn" data-lang="en">EN</button>
+                <span class="gatekeeper__lang-sep">·</span>
+                <button class="gatekeeper__lang-btn" data-lang="ru">RU</button>
+            </div>
+        </div>
+
+        <p class="gatekeeper__footer">© 2026 · KAOS HİKAYELERİ</p>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════
+         APP SHELL (hidden until authenticated)
+         ═══════════════════════════════════════════════════════ -->
+    <div class="app-shell" id="app-shell" style="display:none;">
+
+        <!-- ═══════════════════════════════════════════════════════
+             HEADER
+             ═══════════════════════════════════════════════════════ -->
+        <header class="site-header" id="site-header">
+            <!-- Hamburger Toggle -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Bölüm Menüsü" aria-expanded="false">
+                <span class="menu-toggle__line"></span>
+                <span class="menu-toggle__line"></span>
+                <span class="menu-toggle__line"></span>
+            </button>
+
+            <!-- Brand -->
+            <a class="header-brand" href="#chapter-1" id="header-brand">
+                <div class="header-brand__icon" aria-hidden="true">YK</div>
+                <span class="header-brand__title" id="header-brand-title">
+                    Yağmurda Kalan <span>Tek Kurşun</span>
+                </span>
+            </a>
+
+            <!-- Right side: language + indicator -->
+            <div class="header-right">
+                <!-- Language Switcher -->
+                <div class="lang-switcher" id="lang-switcher">
+                    <button class="lang-switcher__toggle" id="lang-toggle" aria-label="Language">
+                        <span class="lang-switcher__globe">◉</span>
+                        <span class="lang-switcher__current" id="lang-current">TR</span>
+                    </button>
+                    <div class="lang-switcher__dropdown" id="lang-dropdown">
+                        <button class="lang-switcher__option active" data-lang="tr">
+                            <span class="lang-switcher__flag">🇹🇷</span>
+                            <span>Türkçe</span>
+                            <span class="lang-switcher__check">✓</span>
+                        </button>
+                        <button class="lang-switcher__option" data-lang="en">
+                            <span class="lang-switcher__flag">🇬🇧</span>
+                            <span>English</span>
+                            <span class="lang-switcher__check">✓</span>
+                        </button>
+                        <button class="lang-switcher__option" data-lang="ru">
+                            <span class="lang-switcher__flag">🇷🇺</span>
+                            <span>Русский</span>
+                            <span class="lang-switcher__check">✓</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Current Chapter Indicator -->
+                <span class="header-chapter-indicator" id="header-chapter-indicator">
+                    01 — Geçmişin Gölgeleri
+                </span>
+            </div>
+        </header>
+
+        <!-- ═══════════════════════════════════════════════════════
+             SIDEBAR OVERLAY
+             ═══════════════════════════════════════════════════════ -->
+        <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+        <!-- ═══════════════════════════════════════════════════════
+             SIDEBAR — Chapter Index
+             ═══════════════════════════════════════════════════════ -->
+        <nav class="sidebar" id="sidebar" aria-label="Bölüm Dizini">
+            <div class="sidebar__header">
+                <div class="sidebar__label" id="sidebar-label">Seri Hikaye</div>
+                <div class="sidebar__story-title" id="sidebar-story-title">Yağmurda Kalan Tek Kurşun</div>
+            </div>
+
+            <ul class="sidebar__chapter-list" id="chapter-list">
+                <!-- Dynamically generated by app.js -->
+            </ul>
+
+            <div class="sidebar__footer">
+                <div class="sidebar__footer-text" id="sidebar-footer-text">© 2026 · Kaos Hikayeleri</div>
+            </div>
+        </nav>
+
+        <!-- ═══════════════════════════════════════════════════════
+             MAIN CONTENT
+             ═══════════════════════════════════════════════════════ -->
+        <main class="main-content">
+
+            <!-- Reading Area — Chapter content loaded here dynamically -->
+            <article class="reading-area" id="reading-area">
+                <div class="loading-container">
+                    <div class="loading-spinner"></div>
+                    <span class="loading-text">Yükleniyor...</span>
+                </div>
+            </article>
+
+            <!-- Chapter Navigation (Previous / Next) -->
+            <nav class="chapter-nav" aria-label="Bölüm Gezinme">
+                <button class="chapter-nav__btn chapter-nav__btn--prev disabled" id="nav-prev" disabled>
+                    <span class="chapter-nav__arrow chapter-nav__arrow--prev">←</span>
+                    <span id="nav-prev-text">Önceki Bölüm</span>
+                </button>
+                <button class="chapter-nav__btn chapter-nav__btn--next" id="nav-next">
+                    <span id="nav-next-text">Sonraki Bölüm</span>
+                    <span class="chapter-nav__arrow chapter-nav__arrow--next">→</span>
+                </button>
+            </nav>
+
+        </main>
+
+        <!-- ═══════════════════════════════════════════════════════
+             FOOTER
+             ═══════════════════════════════════════════════════════ -->
+        <footer class="site-footer">
+            <p class="site-footer__text" id="site-footer-text">
+                © 2026 · <span>Kaos Hikayeleri</span> · Tüm Hakları Saklıdır
+            </p>
+        </footer>
+
+    </div><!-- /app-shell -->
+
+    <!-- App Script -->
+    <script src="./js/app.js"></script>
+
+</body>
+</html>

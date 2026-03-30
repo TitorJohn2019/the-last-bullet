@@ -1,0 +1,104 @@
+{
+  "id": 1,
+  "title": "Geçmişin Gölgeleri ve Neon Işıkları",
+  "epigraph": null,
+  "sections": [
+    {
+      "location": "Yıl 202X | Brezilya, Max'in Dairesi",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Kavurucu Brezilya güneşi, kırık panjurların arasından sızıp Max'in yorgun yüzüne vururken, başındaki zonklama dayanılmaz bir boyuttaydı. Dün geceden kalan boş içki şişeleri masanın üzerinde dağınık bir şekilde duruyordu. Uyuşmuş zihnini toparlamaya çalışırken, odanın sessizliğini bozan telefonun ısrarlı melodisiyle irkildi."
+        },
+        {
+          "type": "narration",
+          "text": "Max, ağır hareketlerle komodine uzanıp telefonu aldı. Ekrana baktığında arayan kimliği gizliydi. Gözlerini ovuşturdu, derin bir nefes aldı ve çağrıyı yanıtladı. Çatallı ve yorgun bir sesle konuştu:"
+        },
+        {
+          "type": "dialogue",
+          "text": "\"Alo.\""
+        },
+        {
+          "type": "narration",
+          "text": "Hattın diğer ucundaki ses soğuk, mekanik ve otoriterdi: <span class=\"highlight\">\"Alo, Max. Üç gündür Brezilya'dasın ancak hâlâ görevini tamamlamamışsın. Zaman daralıyor. Bugün hallet.\"</span>"
+        },
+        {
+          "type": "narration",
+          "text": "Max'in çenesi kasıldı. Karşısındaki sesin şakası olmadığını çok iyi biliyordu. \"Tamam,\" dedi sadece ve telefonu kapattı. Gözlerini tavana dikip bir süre hareketsiz kaldı. <span class=\"highlight\">Fabiana</span> için bunu yapmak zorundaydı."
+        }
+      ]
+    },
+    {
+      "location": "Kolombiya, Kartel Malikânesi",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Brezilya'nın kilometrelerce uzağında, Kolombiya'nın sık ormanları arasına gizlenmiş lüks bir malikânede hava ağır ve gergindi. Odanın içini yoğun bir puro dumanı kaplamıştı. Deri koltuğuna gömülmüş olan <span class=\"highlight\">Mateo</span>, elindeki viski kadehini yavaşça çevirirken soğukkanlılıkla konuşuyordu."
+        },
+        {
+          "type": "dialogue",
+          "text": "\"Max başarısız olursa, Fabiana Branco ölecek. Bu kadar basit,\" dedi Mateo."
+        },
+        {
+          "type": "narration",
+          "text": "Odanın diğer köşesinde duran lider yardımcısı Santiago, huzursuzca kıpırdandı. \"Fabiana Branco'yu öldürmek Max'ı çileden çıkaracak. Onun gibi birini karşımıza almak istemeyiz.\""
+        },
+        {
+          "type": "narration",
+          "text": "Mateo hafifçe sırıttı, purosunun ucundaki külü tablaya silkti. Gözlerinde tehlikeli bir parıltı vardı. \"Max'ı kaybedersek, Giovanna'yı kazanmış olacağız. Satranç tahtasında bazen bir şövalyeyi feda etmen gerekir, Santiago. Yeter ki şah güvende olsun.\""
+        }
+      ]
+    },
+    {
+      "location": "Brezilya, Neon Gece Kulübü",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Gece çöktüğünde Brezilya'nın sokakları farklı bir ritimle atmaya başladı. İçeri adım attığında, yoğun bas sesleri göğüs kafesinde yankılanıyor, rengarenk neon ışıkları etrafı kör edici bir şekilde aydınlatıyordu."
+        },
+        {
+          "type": "narration",
+          "text": "Hedefi belliydi: <span class=\"highlight\">Vitor Tubarão</span>. Mateo'nun en büyük rakibi ve Fabiana'nın hayatının karşılığı olan adam."
+        },
+        {
+          "type": "narration",
+          "text": "Max merdivenlere yöneldiği sırada, Vitor'un korumalarından biri durumu fark etti. Kulüpteki yüksek müziği bastıramayan iki boğuk silah sesi duyuldu. Koruma yere yığıldığında, etraftaki kadınlar çığlık atmaya başladı."
+        },
+        {
+          "type": "narration",
+          "text": "Vitor, kulübün arka sokağına açılan demir kapıdan kendini dışarı attı. Max sokağa çıktığında yağmur çiseliyordu. Aralarındaki mesafe hızla kapanıyordu. Max silahını doğrultarak üzerine yürürken, Vitor umutsuzca saldırdı. Bıçak Max'in sol kolunu sıyırıp geçti."
+        },
+        {
+          "type": "dialogue",
+          "text": "\"Benim için hiçbir hiçsin,\" diye fısıldadı Max ve tetiği çekti."
+        }
+      ]
+    },
+    {
+      "location": "İhanetin Soğuk Yüzü",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Polis sirenlerinden kurtulup arka sokaklara geçtiğinde telefonu tekrar titredi. Ekranda beliren isim Max'in kanını dondurdu. <strong>Arayan: Mateo.</strong>"
+        },
+        {
+          "type": "dialogue",
+          "text": "\"Haberleri az önce aldım,\" dedi Mateo neşeli bir sesle. \"İşini iyi yapmışsın, Max. Artık benim için çalışıyorsun.\""
+        },
+        {
+          "type": "narration",
+          "text": "Max'in zihninde yapboz parçaları bir anda yerine oturdu. Yıllar önce canından çok sevdiği karısını öldüren adamın ta kendisiydi Mateo. Karısının kanını ellerinde taşıyan adam, şimdi onu kendi piyonu yapmıştı."
+        },
+        {
+          "type": "narration",
+          "text": "Max'in gözlerindeki yorgunluk yerini saf, karanlık bir nefrete bıraktı. Yağmur damlaları yüzünden süzülürken fısıldadı:"
+        },
+        {
+          "type": "dialogue",
+          "variant": "intense",
+          "text": "\"Sıra sana da gelecek, Mateo... Hem de çok yakında.\""
+        }
+      ]
+    }
+  ]
+}

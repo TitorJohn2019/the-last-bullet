@@ -1,0 +1,104 @@
+{
+  "id": 1,
+  "title": "Shadows of the Past and Neon Lights",
+  "epigraph": null,
+  "sections": [
+    {
+      "location": "Year 202X | Brazil, Max's Apartment",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "The scorching Brazilian sun crept through the broken shutters, striking Max's weary face as the throbbing in his head reached unbearable levels. Empty liquor bottles from the night before lay scattered across the table. As he tried to gather his numbed mind, he was jolted by the insistent melody of a ringing phone breaking the room's silence."
+        },
+        {
+          "type": "narration",
+          "text": "Max reached for the nightstand with heavy movements and picked up the phone. The caller ID was hidden. He rubbed his eyes, took a deep breath, and answered the call. He spoke in a hoarse, weary voice:"
+        },
+        {
+          "type": "dialogue",
+          "text": "\"Hello.\""
+        },
+        {
+          "type": "narration",
+          "text": "The voice on the other end was cold, mechanical, and authoritative: <span class=\"highlight\">\"Hello, Max. You've been in Brazil for three days and you still haven't completed your mission. Time is running out. Get it done today.\"</span>"
+        },
+        {
+          "type": "narration",
+          "text": "Max's jaw tightened. He knew all too well that the voice on the other end was not joking. \"Alright,\" was all he said before hanging up. He stared at the ceiling and remained motionless for a while. He had to do this for <span class=\"highlight\">Fabiana</span>."
+        }
+      ]
+    },
+    {
+      "location": "Colombia, Cartel Mansion",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Thousands of kilometers from Brazil, in a luxurious mansion hidden among Colombia's dense forests, the air was heavy and tense. The room was engulfed in thick cigar smoke. <span class=\"highlight\">Mateo</span>, sunk into his leather armchair, spoke coolly while slowly swirling the whiskey glass in his hand."
+        },
+        {
+          "type": "dialogue",
+          "text": "\"If Max fails, Fabiana Branco dies. It's that simple,\" said Mateo."
+        },
+        {
+          "type": "narration",
+          "text": "Santiago, the second-in-command standing in the far corner of the room, shifted uneasily. \"Killing Fabiana Branco will drive Max over the edge. We don't want someone like him as our enemy.\""
+        },
+        {
+          "type": "narration",
+          "text": "Mateo smirked slightly, flicking the ash from his cigar into the ashtray. A dangerous glint shone in his eyes. \"If we lose Max, we'll have gained Giovanna. On a chess board, sometimes you have to sacrifice a knight, Santiago. As long as the king is safe.\""
+        }
+      ]
+    },
+    {
+      "location": "Brazil, Neon Nightclub",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "When night fell, Brazil's streets began to pulse with a different rhythm. As he stepped inside, the heavy bass reverberated through his chest, and colorful neon lights illuminated the surroundings in a blinding display."
+        },
+        {
+          "type": "narration",
+          "text": "His target was clear: <span class=\"highlight\">Vitor Tubarão</span>. Mateo's greatest rival and the man whose life was the price of Fabiana's."
+        },
+        {
+          "type": "narration",
+          "text": "As Max headed toward the stairs, one of Vitor's bodyguards noticed the situation. Two muffled gunshots rang out, unable to be drowned by the club's booming music. When the guard collapsed to the floor, the women around began to scream."
+        },
+        {
+          "type": "narration",
+          "text": "Vitor threw himself through the iron door leading to the back alley. When Max emerged onto the street, it was drizzling. The distance between them was closing fast. As Max walked toward him with his gun drawn, Vitor lunged desperately. The knife grazed Max's left arm."
+        },
+        {
+          "type": "dialogue",
+          "text": "\"You are nothing to me,\" Max whispered, and pulled the trigger."
+        }
+      ]
+    },
+    {
+      "location": "The Cold Face of Betrayal",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "After escaping the police sirens and slipping into the back streets, his phone buzzed again. The name on the screen froze Max's blood. <strong>Caller: Mateo.</strong>"
+        },
+        {
+          "type": "dialogue",
+          "text": "\"I just got the news,\" said Mateo in a cheerful tone. \"You did good work, Max. You work for me now.\""
+        },
+        {
+          "type": "narration",
+          "text": "The puzzle pieces in Max's mind suddenly fell into place. Mateo was the very man who had killed the wife he loved more than life itself years ago. The man who carried his wife's blood on his hands had now made Max his own pawn."
+        },
+        {
+          "type": "narration",
+          "text": "The weariness in Max's eyes gave way to pure, dark hatred. As raindrops streamed down his face, he whispered:"
+        },
+        {
+          "type": "dialogue",
+          "variant": "intense",
+          "text": "\"Your turn will come too, Mateo... And very soon.\""
+        }
+      ]
+    }
+  ]
+}
