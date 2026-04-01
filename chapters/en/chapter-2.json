@@ -1,0 +1,95 @@
+{
+  "id": 2,
+  "title": "Strings of the Puppeteer and the Black Mask",
+  "epigraph": null,
+  "sections": [
+    {
+      "location": "Now | Brazil, A Secluded Shabby Bar",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Exactly three days had passed since that bloody night at the club and Mateo's mocking phone call. The inside of this dingy bar in the city's back alleys smelled of cheap liquor and sour cigarette smoke. Max was alone in the darkest corner of the bar with countless empty glasses in front of him. He had dark bags under his eyes, and his unshaven face for days looked sunken. The same scene kept echoing in his mind: the night his wife died and Mateo's disgusting voice."
+        },
+        {
+          "type": "dialogue",
+          "text": "\"That's enough, Max.\""
+        },
+        {
+          "type": "narration",
+          "text": "His old friend <span class=\"highlight\">Andrés</span> reached for Max's hand and firmly took the full glass off the table. \"You're going to kill yourself at the bottom of these bottles. You need to pull yourself together.\""
+        },
+        {
+          "type": "narration",
+          "text": "Max slowly turned his bloodshot eyes to Andrés. \"He used me, Andrés,\" he said, his voice husky and trembling. \"That hidden number... the person who put Fabiana's life in danger and set me upon Vitor... it was Mateo. He is alive.\""
+        },
+        {
+          "type": "narration",
+          "text": "The expression on Andrés's face froze for a moment. Mateo was thought to have died years ago. This information was a bombshell that would alter all balances in the underworld. Andrés took a deep breath and put his hand on Max's shoulder. \"My friend, I understand your pain. But right now we don't have the luxury of losing control. If he is alive, we must find a way to truly send him to the grave.\""
+        }
+      ]
+    },
+    {
+      "location": "Two Months Ago | Secret Location",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "In the spacious room completely blocked from daylight by thick velvet curtains, only the flames reflecting from the fireplace illuminated the interior. On the leather armchair sat the legendary figure everyone knew as the <span class=\"highlight\">\"Godfather\"</span>, half of his face in shadow. Opposite him stood Mateo, bowing respectfully but carrying a sinister glint in his eyes."
+        },
+        {
+          "type": "narration",
+          "text": "The Godfather broke the silence by rhythmically tapping his cane on the floor. \"Vitor Tubarão is overstepping his bounds, Mateo. He has grown too powerful and is throwing a wrench into the gears of our system. If Vitor Tubarão dies, I will give you his empire. I can make you the new money baron.\""
+        },
+        {
+          "type": "narration",
+          "text": "A thin, demonic smile appeared on Mateo's lips. There was no need for him to get his own hands dirty. The perfect plan had already begun to take shape in his mind."
+        },
+        {
+          "type": "dialogue",
+          "text": "\"Consider it done, sir,\" he said respectfully."
+        },
+        {
+          "type": "narration",
+          "text": "When Mateo walked out, his plan was clear: He wasn't going to carry out this dangerous mission himself. He would use Max, the man whose wife he took away and whose life he ruined. By taking Fabiana hostage, he would unleash Max upon Vitor; this way, his rival Vitor would be eliminated, and since the cops would go after Max, his greatest enemy would be destroyed forever. As for himself, he would sit on the throne promised by the Godfather with thoroughly clean hands."
+        }
+      ]
+    },
+    {
+      "location": "Now | Brazil, A Secluded Shabby Bar",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "As Max listened to what Andrés had to say, he angrily squeezed the empty glass on the table. The sound of the glass cracking broke the silence."
+        },
+        {
+          "type": "dialogue",
+          "text": "\"He has an army, Andrés. It's impossible for me to reach Mateo alone. He is surrounded by a wall of flesh,\" Max said in despair."
+        },
+        {
+          "type": "narration",
+          "text": "Andrés looked around, and after making sure no one was listening to them, he leaned towards the table. \"We don't need to reach him,\" he whispered. \"There is someone I've known since childhood. He is a ghost. In the underworld they call him <span class=\"highlight\">'Black Mask'</span>. He approaches his target silently and gets the job done. If there is anyone who can take care of Mateo, it's the Black Mask.\""
+        },
+        {
+          "type": "narration",
+          "text": "Max frowned. He had never heard this name before. He took his special encrypted phone out of the inside pocket of his jacket. Connecting to the dark web of the underworld, he searched for the name \"Black Mask\". The reports dropping onto the screen, deleted security camera footages, and unsolved assassination files explained everything. This man was a complete professional; a ruthless, untraceable, and flawless weapon."
+        },
+        {
+          "type": "narration",
+          "text": "As the pale light of the phone screen hit Max's face, he felt his state of drunkenness and utter despair that had lasted for days vanish in an instant. The empty stare in his eyes was replaced by that familiar and dangerous fire of revenge that had not died out for years."
+        },
+        {
+          "type": "narration",
+          "text": "He slammed the phone down on the table and stood up. There was no longer the slightest hesitation on his face."
+        },
+        {
+          "type": "dialogue",
+          "variant": "intense",
+          "text": "\"Let's do it right away,\" said Max, his voice icy cold and resolute. \"Contact the Black Mask. We're going to bring Mateo's kingdom crashing down on his head.\""
+        },
+        {
+          "type": "narration",
+          "text": "Max paused while putting on his jacket and looked straight into Andrés's eyes. \"And it won't just end with Mateo... We're going to pull <span class=\"highlight\">Fabiana Branco</span> and <span class=\"highlight\">Giovanna</span> out of that hell too.\""
+        }
+      ]
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   // ── Configuration ──────────────────────────────────────────
   const CONFIG = {
     totalChapters: 30,
-    availableChapters: 1,
+    availableChapters: 2,
     chaptersPath: './chapters',
     defaultChapter: 1,
     defaultLang: 'tr',
@@ -94,9 +94,9 @@
 
   // Chapter titles per language
   const CHAPTER_TITLES = {
-    tr: { 1: 'Geçmişin Gölgeleri ve Neon Işıkları' },
-    en: { 1: 'Shadows of the Past and Neon Lights' },
-    ru: { 1: 'Тени прошлого и неоновые огни' },
+    tr: { 1: 'Geçmişin Gölgeleri ve Neon Işıkları', 2: 'Kuklacının İpleri ve Kara Maske' },
+    en: { 1: 'Shadows of the Past and Neon Lights', 2: 'Strings of the Puppeteer and the Black Mask' },
+    ru: { 1: 'Тени прошлого и неоновые огни', 2: 'Нити Кукловода и Чёрная Маска' },
   };
 
   // ── State ──────────────────────────────────────────────────
